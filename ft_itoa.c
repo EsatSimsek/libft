@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/19 19:51:04 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:04 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/25 00:14:35 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ char	*ft_itoa(int n)
 	s[len] = '\0';
 	if (ln == 0)
 		s[0] = '0';
-	while (ln >= 1)
+	while (ln > 0)
 	{
 		len--;
 		s[len] = (ln % 10) + '0';
@@ -54,3 +54,10 @@ char	*ft_itoa(int n)
 	}
 	return (s);
 }
+
+/* int main()
+{
+	char *s;
+	s = ft_itoa(12312);
+	printf("%s" , s);
+} */

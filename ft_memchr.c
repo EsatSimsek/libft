@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:34 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:40:37 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/25 00:45:57 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,10 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+/* int main()
+{
+    char k[10] = "abc";
+    char *k1 = ft_memchr(k, 'b', 4);
+    printf("%s\n", k1);
+} */

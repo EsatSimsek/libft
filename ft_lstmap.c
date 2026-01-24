@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/24 17:33:19 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:24:32 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/25 00:42:01 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,27 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
+
+/* void *f(void *content)
+{
+	return ("A"); 
+}
+void del(void *content) 
+{ 
+	free(content); 
+}
+
+int main(void)
+{
+	t_list *l = ft_lstnew(strdup("a"));
+	ft_lstadd_back(&l, ft_lstnew(strdup("b")));
+
+	t_list *m = ft_lstmap(l, f, del);
+
+	t_list *t = m;
+	while (t)
+	{
+		printf("%s\n", (char *)t->content);
+		t = t->next;
+	}
+} */
