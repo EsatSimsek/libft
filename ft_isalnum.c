@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:25 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:00:58 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:22:22 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,4 @@ int	ft_isalnum(int c)
 	{
 		return (0);
 	}
-}
-
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("%d\n", ft_isalnum('1'));
 }

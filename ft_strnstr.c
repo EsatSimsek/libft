@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:49 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:39 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:49:45 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	return (NULL);
 }
 
-int	main(void)
+/* int	main(void)
 {
 	char a[10] = "abcde";
 	char b[3] = "z";
@@ -44,4 +44,4 @@ int	main(void)
 		printf("Bulunamadi (NULL)\n");
 	else
 		printf("%s\n", sonuc);
-}
+} */

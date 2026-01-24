@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 17:05:46 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:10 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:24:22 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,15 +21,4 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	}
 	return (lst);
-}
-
-int	main(void)
-{
-	t_list	*node1;
-
-	node1 = (t_list *)malloc(sizeof(t_list));
-	node1->content = 111;
-	node1->next = NULL;
-	node1->next = ft_lstlast(node1);
-	printf("%d \n", node1->next->content);
 }

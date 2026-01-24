@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/23 17:05:32 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:06 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:23:30 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,25 +31,4 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 void	del(void *content)
 {
 	free(content);
-}
-
-#include <stdio.h>
-
-int	main(void)
-{
-	t_list *head;
-
-	head = malloc(sizeof(t_list));
-	head->content = strdup("dsa");
-	head->next = malloc(sizeof(t_list));
-	head->next->content = strdup("gfdgf");
-	head->next->next = malloc(sizeof(t_list));
-	head->next->next->content = strdup("ghkj");
-	head->next->next->next = NULL;
-
-	printf("%p\n", head);
-
-	ft_lstclear(&head, del);
-
-	printf("%p\n", head);
 }

@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/24 17:33:19 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:12 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:24:32 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,48 +35,4 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		lst = lst->next;
 	}
 	return (new_lst);
-}
-
-void	del(void *content)
-{
-	free(content);
-}
-
-void	*to_upper(void *content)
-{
-	char	*c;
-	char	*new_c;
-
-	c = (char *)content;
-	new_c = malloc(sizeof(char));
-	if (!new_c)
-		return (NULL);
-	*new_c = *c - 32;
-	return (new_c);
-}
-#include <stdio.h>
-
-int	main(void)
-{
-	char	c1;
-	char	c2;
-	char	c3;
-	t_list	*list;
-	t_list	*tmp;
-	t_list	*map_list;
-
-	c1 = 'a';
-	c2 = 'b';
-	c3 = 'c';
-	list = ft_lstnew(&c1);
-	ft_lstadd_back(&list, ft_lstnew(&c2));
-	ft_lstadd_back(&list, ft_lstnew(&c3));
-	tmp = list;
-	map_list = ft_lstmap(list, to_upper, del);
-	tmp = map_list;
-	while (tmp)
-	{
-		printf("%c -> ", *(char *)tmp->content);
-		tmp = tmp->next;
-	}
 }

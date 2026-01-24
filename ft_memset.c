@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:39 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:19 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:42:03 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b1);
 }
-
+/* 
 int	main(void)
 {
 	char k[10] = "abc";
@@ -36,4 +36,4 @@ int	main(void)
 	int k2[] = {0};
 	ft_memset(k2, -5, 1);
 	printf("%d\n", k2[0]);
-}
+} */

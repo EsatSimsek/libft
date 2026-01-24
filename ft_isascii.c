@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:29 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:01 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:23:09 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,4 @@ int	ft_isascii(int c)
 	{
 		return (0);
 	}
-}
-
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("%d\n", ft_isascii(-1));
 }

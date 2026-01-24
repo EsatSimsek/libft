@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:35 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:16 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:40:48 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,4 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		x++;
 	}
 	return (0);
-}
-
-int	main(void)
-{
-	char	s1[5] = "abc";
-	char	s2[5] = "abzz";
-
-	printf("%d\n", ft_memcmp(s1, s2, 3));
 }

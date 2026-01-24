@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:38 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:18 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:41:55 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,9 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	return (dst1);
 }
 
-int	main(void)
+/* int	main(void)
 {
 	char s2[10] = "abcd";
 	ft_memmove(s2 + 2, s2, 3);
 	printf("%s\n", s2);
-}
+} */

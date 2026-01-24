@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/19 21:36:26 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:29 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:49:11 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 
 	x = 0;
 	if (!s || !f)
-		return ; ////
+		return ;
 	while (s[x] != '\0')
 	{
 		f(x, s + x);
@@ -26,7 +26,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 	}
 }
 
-void	f(unsigned int i, char *c)
+/* void	f(unsigned int i, char *c)
 {
 	if (i % 2 == 0)
 	{
@@ -42,4 +42,4 @@ int	main(void)
 	ft_striteri(str, f);
 	printf("%s\n", str);
 	return (0);
-}
+} */

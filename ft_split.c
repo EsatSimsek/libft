@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/18 22:24:37 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:25 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:52:28 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,13 +83,13 @@ char	**ft_split(char const *s, char c)
 	return (dst);
 }
 
-int	main(void)
+/* int	main(void)
 {
 	char	*s;
 	char	**r;
 	int		x;
 
-	s = "   asd   asd asdasdafdsf sd gdf gjnsdf gşdsfjl gdsşlf bgnsdfşj bg cvmbnxcl  sdfj sldjfsşljşwqa";
+	s = "   asd   asd asdsşljşwqa";
 	x = 0;
 	r = ft_split(s, ' ');
 	while (r[x])
@@ -98,4 +98,4 @@ int	main(void)
 		x++;
 	}
 	free(r);
-}
+} */

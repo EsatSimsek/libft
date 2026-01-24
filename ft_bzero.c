@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:23 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:00:55 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:22:11 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,4 @@ void	ft_bzero(void *s, size_t n)
 		s1[x] = 0;
 		x++;
 	}
-}
-
-int	main(void)
-{
-	char k[19] = "abcd";
-	ft_bzero(k, 19);
-	printf("%s\n", k);
 }
