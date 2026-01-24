@@ -1,45 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   lst_clear.c                                        :+:      :+:    :+:   */
+/*   ft_lst_clear.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/23 17:05:32 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/23 18:06:37 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:01:06 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstclear(t_list **lst, void (*del)(void*))
+void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
-    t_list *temp;
-    
-    if (lst == NULL || del == NULL)
-        return;
-    while (*lst != NULL)
-    {
-        temp = *lst;
-        temp = temp -> next;
-        ft_lstdelone(*lst, del);
-        *lst = temp;
-    }
-    *lst = NULL;
+	t_list	*temp;
+
+	if (lst == NULL || del == NULL)
+		return ;
+	while (*lst != NULL)
+	{
+		temp = *lst;
+		temp = temp->next;
+		ft_lstdelone(*lst, del);
+		*lst = temp;
+	}
+	*lst = NULL;
 }
 
-
-
-
-void del(void *content)
+void	del(void *content)
 {
-    free(content);
+	free(content);
 }
 
 #include <stdio.h>
-int main()
+
+int	main(void)
 {
-    t_list	*head;
+	t_list *head;
 
 	head = malloc(sizeof(t_list));
 	head->content = strdup("dsa");

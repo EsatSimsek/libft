@@ -6,29 +6,25 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/19 21:36:26 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/19 21:46:54 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:01:29 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_striteri(char *s, void (*f)(unsigned int, char*))
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
-    unsigned int x;
+	unsigned int	x;
 
-    x = 0;
-    if (!s || !f)
-        return; ////
-    while (s[x] != '\0')
-    {
-        f(x, s + x);
-        x++;
-    }
+	x = 0;
+	if (!s || !f)
+		return ; ////
+	while (s[x] != '\0')
+	{
+		f(x, s + x);
+		x++;
+	}
 }
-
-
-
-
 
 void	f(unsigned int i, char *c)
 {
@@ -39,10 +35,10 @@ void	f(unsigned int i, char *c)
 	}
 }
 
-
 int	main(void)
 {
-	char str[] = "dsaasd dasdas asda"; 
+	char	str[] = "dsaasd dasdas asda";
+
 	ft_striteri(str, f);
 	printf("%s\n", str);
 	return (0);

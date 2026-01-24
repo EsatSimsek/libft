@@ -6,35 +6,30 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 17:05:46 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/23 16:17:10 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:01:10 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
-    if (lst == NULL)
-        return (NULL);
-    while (lst -> next != NULL)
-    {
-        lst = lst -> next;
-    }
-    return(lst);
+	if (lst == NULL)
+		return (NULL);
+	while (lst->next != NULL)
+	{
+		lst = lst->next;
+	}
+	return (lst);
 }
 
-
-int main()
+int	main(void)
 {
-    t_list *node1 = (t_list *)malloc(sizeof(t_list));
-    node1 -> content = 111;
-    node1 -> next = NULL;
+	t_list	*node1;
 
-    node1 -> next = ft_lstlast(node1);
-
-    printf("%d \n", node1 -> next -> content);
-
+	node1 = (t_list *)malloc(sizeof(t_list));
+	node1->content = 111;
+	node1->next = NULL;
+	node1->next = ft_lstlast(node1);
+	printf("%d \n", node1->next->content);
 }
-
-
-

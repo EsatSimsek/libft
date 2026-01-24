@@ -6,22 +6,21 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/20 14:27:05 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/20 14:32:21 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:01:20 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putchar_fd(char c, int fd)
+void	ft_putchar_fd(char c, int fd)
 {
-    write(fd, &c, 1);
+	write(fd, &c, 1);
 }
 
-
-
 #include <stdio.h>
-int  main()
+
+int	main(void)
 {
-    ft_putchar_fd('c', 1);
-    printf("\n");
+	ft_putchar_fd('c', 1);
+	printf("\n");
 }

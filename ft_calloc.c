@@ -6,39 +6,36 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/16 00:18:02 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 12:29:08 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:00:57 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_calloc(size_t nmemb, size_t size)
+void	*ft_calloc(size_t nmemb, size_t size)
 {
-    void *p;
-    
-    if (size != 0 && nmemb > (size_t) - 1 / size)
-        return (NULL);
-    p = malloc((size) * (nmemb));
-    if (p == NULL)
-        return (NULL);
-    ft_bzero(p, (nmemb * size));
-    return (p);
+	void	*p;
+
+	if (size != 0 && nmemb > (size_t)-1 / size)
+		return (NULL);
+	p = malloc((size) * (nmemb));
+	if (p == NULL)
+		return (NULL);
+	ft_bzero(p, (nmemb * size));
+	return (p);
 }
 
-
-
-
-int main()
+int	main(void)
 {
-    char *k;
-    k = (char *)ft_calloc(10, sizeof(char));
-    
-    int x = 0;
+	char *k;
+	k = (char *)ft_calloc(10, sizeof(char));
 
-    while (x < 10)
-    {
-        printf("%d\n", k[x]);
-        x++;
-    }
-    free(k);
+	int x = 0;
+
+	while (x < 10)
+	{
+		printf("%d\n", k[x]);
+		x++;
+	}
+	free(k);
 }

@@ -3,29 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: essimsek <essimsek@student.42istanbul.c    +#+  +:+       +#+        */
+/*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:25 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/14 23:17:38 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:00:58 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalnum(int c)
+int	ft_isalnum(int c)
 {
-    if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
-    {
-        return(1);
-    }
-    else
-    {
-        return (0);
-    }
+	if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a'
+			&& c <= 'z'))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
 
-
-
 #include <stdio.h>
-int main()
+
+int	main(void)
 {
-    printf("%d\n", ft_isalnum('1'));
+	printf("%d\n", ft_isalnum('1'));
 }

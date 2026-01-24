@@ -6,20 +6,20 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:47 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/19 19:03:20 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/24 21:01:35 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-    size_t x;
+	size_t	x;
 
-    x = 0;
-    while (s[x] != '\0')
-    {
-        x++;
-    }
-    return (x);
+	x = 0;
+	while (s[x] != '\0')
+	{
+		x++;
+	}
+	return (x);
 }
