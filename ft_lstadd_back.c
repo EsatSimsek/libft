@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/23 16:18:38 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/25 00:15:19 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/25 14:24:46 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	if (*lst == NULL)
 	{
 		*lst = new;
-		new->next = NULL;
+		return ;
 	}
 	else
 	{
@@ -29,7 +29,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		while (iter->next != NULL)
 			iter = iter->next;
 		iter->next = new;
-		new->next = NULL;
 	}
 }
 
