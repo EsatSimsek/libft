@@ -1,5 +1,7 @@
 *This project has been created as part of the 42 curriculum by essimsek.*
 
+# LIBFT
+
 ## Description
 
 **libft** is a custom C library that re-implements essential functions from the standard C library (`libc`), along with additional utility functions commonly used in C programming. The goal of this project is to gain a deep understanding of how fundamental C functions work under the hood by coding them from scratch.
