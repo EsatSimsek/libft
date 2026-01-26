@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/17 16:02:56 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/25 00:55:37 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:39:12 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,16 +38,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(dst, s + start, real_len + 1);
 	return (dst);
 }
-
-/* int main(void)
-{
-    char *s;
-	s = ft_substr("42Istanbul", 2, 8);
-
-    if (s)
-    {
-        printf("%s\n", s);
-        free(s);
-    }
-    return (0);
-} */

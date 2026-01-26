@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/20 14:36:23 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 22:04:48 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:37:59 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
-
-/* int	main(void)
-{
-	char s[] = "asdasd";
-
-	ft_putendl_fd(s, 1);
-} */

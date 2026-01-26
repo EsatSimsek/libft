@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/19 20:49:56 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:52:13 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:38:51 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,16 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (dst);
 }
-
-/* char	f(unsigned int x, char c)
-{
-	return (c + 10);
-}
-
-int	main(void)
-{
-	char s[10] = "asdg";
-	char *dst;
-	dst = ft_strmapi(s, f);
-	printf("%s", dst);
-} */

@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:45 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:49:28 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:38:44 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (src_size);
 }
-
-/* int	main(void)
-{
-	char dst[10];
-	const char src[5] = "avsf";
-	printf("%zu\n", ft_strlcpy(dst, src, 10));
-} */

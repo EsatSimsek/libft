@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/19 19:51:04 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/25 00:14:35 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:36:38 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,10 +54,3 @@ char	*ft_itoa(int n)
 	}
 	return (s);
 }
-
-/* int main()
-{
-	char *s;
-	s = ft_itoa(12312);
-	printf("%s" , s);
-} */

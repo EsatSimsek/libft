@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/18 21:05:47 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/25 00:51:36 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:38:36 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,15 +30,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	dst[s1_len + s2_len] = '\0';
 	return (dst);
 }
-
-/* int main(void)
-{
-    char *s;
-	s = ft_strjoin("42 ", "Istanbul");
-
-    if (s)
-    {
-        printf("%s\n", s);
-        free(s);
-    }
-} */

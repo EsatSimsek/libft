@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:41 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:56:22 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:38:19 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (NULL);
 }
-
-/* int	main(void)
-{
-	char	str[] = "abc";
-
-	printf("%s\n", ft_strchr(str, 'b'));
-} */

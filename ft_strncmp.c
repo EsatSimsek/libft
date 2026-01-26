@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:48 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:51:57 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:38:56 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-/* int	main(void)
-{
-	char s1[5] = "abc";
-	char s2[5] = "abzz";
-	printf("%d\n", ft_strncmp(s1, s2, 3));
-} */

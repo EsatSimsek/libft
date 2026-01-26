@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/20 14:41:36 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:42:23 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:38:03 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,3 @@ void	ft_putnbr_fd(int n, int fd)
 	c = (ln % 10) + '0';
 	write(fd, &c, 1);
 }
-
-/* int	main(void)
-{
-	int x = -111;
-
-	ft_putnbr_fd(x, 1);
-	printf("\n");
-} */

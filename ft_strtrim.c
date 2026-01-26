@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/18 21:34:26 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/25 00:54:37 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:39:08 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,15 +49,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	dst = ft_substr(s1, start, end - start);
 	return (dst);
 }
-
-/* int main(void)
-{
-    char *s;
-	s = ft_strtrim("...hello world...", ".");
-
-    if (s)
-    {
-        printf("Trimmed: |%s|\n", s);
-        free(s);
-    }
-} */

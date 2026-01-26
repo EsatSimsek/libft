@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/15 23:39:09 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:01:27 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:38:23 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,13 +31,3 @@ char	*ft_strdup(const char *s1)
 	dest[x] = '\0';
 	return (dest);
 }
-
-/* int main()
-{
-	char s1[] = "abc";
-	char *s2 = ft_strdup(s1);
-
-	printf("%s\n" , s2);
-
-	free(s2);
-} */

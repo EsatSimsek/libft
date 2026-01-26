@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:44 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:49:20 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/26 18:38:40 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[dest_size + x] = '\0';
 	return (dest_size + src_size);
 }
-
-/* int	main(void)
-{
-	char x1[10] = "abc";
-	char x2[] = "abc";
-	printf("%zu", ft_strlcat(x1, x2, 10));
-	printf("%s", x1);
-} */
