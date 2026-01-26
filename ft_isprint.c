@@ -6,18 +6,14 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:33 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:23:17 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/27 01:13:40 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
-	{
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
