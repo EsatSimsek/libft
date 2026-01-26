@@ -149,4 +149,4 @@ AI tools were utilized during the development of this project strictly for educa
 
 ---
 
-**Author:** essimsek @ 42 Istanbul
+**Author:** essimsek@student.42istanbul.com.tr
