@@ -140,7 +140,12 @@ To use libft in your project:
 
 ### AI Usage
 
-AI tools were **not** used in the development of this project. All functions were implemented manually based on standard library documentation and the project requirements.
+AI tools were utilized during the development of this project strictly for educational and debugging purposes. Specifically, AI was used to:
+
+* Understand the behavior and intended purpose of standard library functions.
+* Clarify concepts related to memory management and data structures.
+
+**Note:** All actual code implementation and logic construction were done manually to ensure a complete understanding of the core concepts.
 
 ---
 
