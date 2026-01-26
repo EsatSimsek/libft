@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/15 23:39:09 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/26 18:38:23 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/27 01:42:07 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 char	*ft_strdup(const char *s1)
 {
 	char	*dest;
-	int		x;
-	int		len;
+	size_t	x;
+	size_t	len;
 
 	x = 0;
 	len = ft_strlen(s1);
