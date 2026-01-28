@@ -6,7 +6,7 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:38 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/26 18:37:46 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/28 22:40:57 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	dst1 = (unsigned char *)dst;
 	src1 = (const unsigned char *)src;
 	if (dst1 == NULL && src1 == NULL)
-		return (0);
+		return (NULL);
 	if (dst1 > src1)
 	{
 		while (n-- > 0)
@@ -38,5 +38,5 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 			x++;
 		}
 	}
-	return (dst1);
+	return (dst);
 }
