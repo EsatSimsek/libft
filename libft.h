@@ -6,14 +6,13 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/15 14:41:22 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:08:16 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/29 00:07:28 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
 
