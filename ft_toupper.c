@@ -6,9 +6,11 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:53 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/24 21:50:15 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/29 00:05:57 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_toupper(int c)
 {

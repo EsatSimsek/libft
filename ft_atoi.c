@@ -6,9 +6,11 @@
 /*   By: essimsek <essimsek@student.42istanbul.com. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/14 17:51:21 by essimsek          #+#    #+#             */
-/*   Updated: 2026/01/26 18:32:29 by essimsek         ###   ########.fr       */
+/*   Updated: 2026/01/29 00:05:00 by essimsek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {
